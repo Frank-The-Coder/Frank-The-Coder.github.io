@@ -578,6 +578,13 @@ small {
   color: #fff;
 }
 
+/* Projects: Load More button */
+
+#load-more-btn {
+  margin: 0 0 40px;
+  padding: 0 40px;
+}
+
 /* Places Travelled map cards */
 
 .place-card .card-image iframe {
