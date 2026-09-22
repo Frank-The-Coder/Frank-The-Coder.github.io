@@ -376,18 +376,15 @@ h3 {
 
 .card .role {
   font-size: 1.25rem;
-  position: absolute;
-  right: 38px;
-  top: 35px;
+  margin: 0 0 12px;
 }
 
-/* Icon shown in place of a company logo on experience cards */
-.card .exp-icon {
+/* Company logos on experience cards */
+.card img.exp-logo {
   display: block;
-  text-align: center;
-  font-size: 56px;
-  line-height: 72px;
-  color: #757575;
+  margin: 0 auto;
+  max-height: 80px;
+  width: auto;
 }
 
 .card li a {
