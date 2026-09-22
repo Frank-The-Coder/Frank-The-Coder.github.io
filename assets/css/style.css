@@ -381,6 +381,15 @@ h3 {
   top: 35px;
 }
 
+/* Icon shown in place of a company logo on experience cards */
+.card .exp-icon {
+  display: block;
+  text-align: center;
+  font-size: 56px;
+  line-height: 72px;
+  color: #757575;
+}
+
 .card li a {
   margin-right: 0;
   color: #333;
@@ -487,12 +496,27 @@ a.hoverline:hover {
 }
 
 #skills .col img.responsive-img {
-  margin: 0 auto;
-  max-height: 100px;
-  padding-bottom: 10px;
-  text-align: center;
-  vertical-align: middle;
-  display: table-cell;
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  margin: 0 auto 10px;
+}
+
+/* Skills listed without a logo */
+#skills .skill-tags {
+  margin-top: 10px;
+}
+
+#skills .skill-tag {
+  display: inline-block;
+  padding: 4px 14px;
+  margin: 4px 8px 4px 0;
+  border-radius: 16px;
+  background: #eceff1;
+  color: #37474f;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .card.large .card-content p {
