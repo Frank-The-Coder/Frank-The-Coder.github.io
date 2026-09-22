@@ -578,6 +578,16 @@ small {
   color: #fff;
 }
 
+/* Places Travelled map cards */
+
+.place-card .card-image iframe {
+  display: block;
+}
+
+.place-card .card-content p {
+  color: #555;
+}
+
 /* Section title bars */
 
 .page-title {
